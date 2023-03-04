@@ -8,8 +8,8 @@ import org.testng.annotations.Test;
 
 import pomScripts.WelcomePage;
 
-public class LoginScript {
-	
+public class LoginScriptTest 
+{
 	@Test
 	public void loginTest() {
 		System.setProperty("webdriver.chrome.driver", "./src/main/resources/Drivers/chromedriver.exe");
